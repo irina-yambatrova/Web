@@ -1,0 +1,105 @@
+
+header {
+    display: block;
+    background: none ;  /* Градиент */
+   }
+   .header-bg {
+    height: 10%; /* Высота шапки */
+    text-align: right; /* Выравнивание по центру */
+    padding: 10.5px;
+   }
+  
+.button {
+    color:dimgray;  
+    font-family: Helvetica,Arial,sans-serif;
+    font-size:13px;
+    background-color: whitesmoke;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    cursor :nw-resize; 
+}
+
+.button1 {
+    background-color: whitesmoke; 
+    color: dimgray; 
+}
+
+.button1:hover {
+    background-color: whitesmoke;
+    border: 1px solid slategray;
+    cursor : default;  
+}
+
+.button_input{
+    color:white;
+    background-color: royalblue;
+    border: none;
+    font-size:13px;
+    margin: 2px 2px;
+    text-align: center;
+    padding: 8px 16px;
+}
+
+
+ .footer { /*нижняя часть страницы*/
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10.5px; /* Поля вокруг текста */
+    border: 1px solid lightgray;
+    background:whitesmoke; /* Цвет фона */
+    width: 120%; /* Ширина на всю страницу */
+   }
+
+   .tool { 
+      background: none; /* Для IE */
+      background-color: none; /*  фон */ 
+      padding: 2px 0 0; 
+      bottom: 0; /* Положение от нижнего края */
+      width: 100%; /* Ширина слоя */
+    }
+
+   .tool img { margin-left: 548px; 
+   margin-top: 119px;
+   }
+
+   a { 
+     color:dimgray;  
+     font-family: Helvetica,Arial,sans-serif;
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    font-size:13px;
+   }
+
+   a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора мыши на ссылку */
+   }
+   
+   .upper_right { padding-right:26px;}
+   .upper_right1 { padding-right:26px;}
+   .upper_right1:hover { cursor: pointer;}
+   .lower_left {padding-left:25px;margin:0 }
+   .lower_center {padding-left:729px;margin:0 }
+   .placeholder {padding-left:390px; margin:31px }
+   ._button1 {padding-left:556px }
+   ._button2 {padding-left:8px }
+
+   .voice{
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 285px; /* Положение от нижнего края */
+    right: 372px; /* Положение от правого края */
+   }
+   .voice:hover{
+        cursor: pointer;
+   }
+
+   .keyboard{
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 292px; /* Положение от нижнего края */
+    right: 414px; /* Положение от правого края */
+   }
+
+   .keyboard:hover{
+        cursor: pointer;
+   }
+
+   

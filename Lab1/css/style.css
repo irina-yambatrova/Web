@@ -41,8 +41,7 @@ header{
     padding:8px 16px;
 }
 
-
- .footer { /*нижняя часть страницы*/
+ .footer{/*нижняя часть страницы*/
     position:fixed;/* Фиксированное положение */
     left:0;bottom:0;/* Левый нижний угол */
     padding:0.5px;/* Поля вокруг текста */
@@ -59,7 +58,7 @@ header{
       width:100%;/*Ширина слоя */
     }
 
-   .tool img {margin-left:548px; 
+   .tool img{margin-left:548px; 
    margin-top:119px;
    }
 
@@ -80,8 +79,8 @@ header{
    .lower_left{padding-left:25px;margin:0}
    .lower_center{padding-left:729px;margin:0}
    .placeholder{padding-left:390px; margin:31px}
-   ._button1{padding-left:556px}
-   ._button2{padding-left:8px}
+   .button-1{padding-left:556px}
+   .button-2{padding-left:8px}
 
    .voice{
     position:absolute;/* Абсолютное позиционирование */

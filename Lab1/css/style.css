@@ -23,45 +23,47 @@ a:hover{
 }
 
 .application{
-    position: relative;
     top:0.3em;
     padding-right:18px;
     opacity:0.66;
+    width:16px;
+    height:16px;
 }
 .application:hover, .application:focus, .application:active{
     opacity:1;
 }
 
-.upper-right{padding-right:18px;}
-.upper-right-2{padding-right:11px;}
-.button-input-place{padding-right:14.5px;}
+.upper-right{margin-right:18px;}
+.upper-right-2{margin-right:11px;}
+.button-input-place{margin-right:14.5px;}
 
 .button-input{
+    padding: 5px;
     border-radius: 3px;
     font-size: 13px;
     height:30px;
     width:65px;
     border:none;
-    text-align:center;
     color:#ffffff;
     font-weight:bold;
     background:-webkit-linear-gradient(#4387f0,#4387f8);
+    outline:none;
 }
 
 .button-input:hover{
-box-shadow: 0 0.8px 0px 0 rgba(0,0,0,0.16), 0 0 0 0.8px rgba(0,0,0,0.08);
+    box-shadow: 0 0.8px 0px 0 rgba(0,0,0,0.16), 0 0 0 0.8px rgba(0,0,0,0.08);
 }
 
 .mainImage{
-    position:absolute;
-    top:184px;
-    left:544px;
+    margin-top:184px;
+    margin-left:544px;
+    width:283px;
+    height:94px; 
 }
 
 .placeholder{
-    position:absolute;
-    top:318px;
-    left:398px;
+    margin-top:48px;
+    margin-left:398px;
 }
 
 .placeholder-text{
@@ -71,26 +73,23 @@ box-shadow: 0 0.8px 0px 0 rgba(0,0,0,0.16), 0 0 0 0.8px rgba(0,0,0,0.08);
     font-size:16px;
 }
 
-input[type="search"]
-{
+input[type="search"]{
     border:0.5px;
     outline: none;
     box-shadow:0 1px 6px 0 rgba(0,0,0,0.2),0 0 0 0px rgba(0,0,0,0.08);
 }
-.placeholder input:hover, .placeholder input:focus
-{
+.placeholder input:hover, .placeholder input:focus{
     border:1px;
     box-shadow:0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
     outline: none;
 }
 
 .buttons{
-    position: absolute;
     top:394px;
     left:552.5px;
 }
 input[type="submit"]{
-    background:#f2f2f2;
+    background:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     color:#757575;
     font-size:13px;
     font-weight:bold;
@@ -111,18 +110,23 @@ input[type="submit"]:hover {
     color:#1d1d35;
     border:1px solid #d0d0d0;
     background:-webkit-linear-gradient( #f2f2f2, #f8f8f8);
+    outline:none;
+}
+input[type="submit"]:active {
+    outline:none;
+    border:1px solid #1da1f2;
 }
 
 .button-padding{padding-left:4px;}
 
 .footer{
     line-height: 39px;
-    position:fixed;/* Фиксированное положение */
-    left:0;bottom:0;/* Левый нижний угол */
-    padding:0px;/* Поля вокруг текста */
+    position:fixed;
+    left:0;bottom:0;
+    padding:0px;
     border:0.5px solid #e4e4e4;
-    background:whitesmoke;/* Цвет фона */
-    width:100%;/* Ширина на всю страницу */
+    background:whitesmoke;
+    width:100%;
 }
 
 .lower_left-1{padding-left:29px;margin:0}
@@ -130,22 +134,28 @@ input[type="submit"]:hover {
 .lower_center {padding-left:725px;margin:0}
 .lower_left-3{padding-left:27px;margin:0}
 
-.keyboard
-{
-    position:absolute;
-    top:320px;
-    right:443px;
+.keyboard{
+    padding-top:120px;
+    padding-right:143px;
     opacity:0.75;
+    width:19px;
+    height:11px;
 }
 
 .keyboard:hover, .keyboard:focus, .keyboard:active{
     opacity:1;
 }
 
-.voice
-{
-    position:absolute;
-    top:317px;
-    right:405px;
+.voice{
+    padding-top:12px;
+    padding-right:105px;
     cursor:pointer;
+    width:14px;
+    height:14px;
 }
+/*
+плейсхолдер обернуть
+обернуть кнопки
+градинет и тень бордер при нажатии для кнопок
+разобраться с кнопкой djqnb
+*/

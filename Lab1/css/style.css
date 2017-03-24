@@ -8,12 +8,17 @@ header{
 }
 
 .header-bg{
-   margin-top: 2px;
+    margin-top:2px;
     height:37px;
     text-align:right;
     margin-top:6px;
     display:block;
-    align-items: center;
+}
+
+.header-bg a{
+    position:relative;
+    top:-4px;
+    padding-right:18px;
 }
 
 a{
@@ -26,29 +31,34 @@ a:hover{
 }
 
 .application {
-    margin-top:14px;
+    margin-top:15px;
     opacity:0.66;
     height:16px;
     display:inline-block;
     box-sizing:border-box;
-    padding-right: 12px;
+    padding-right: 18px;
 }
 
 .application:hover, .application:focus, .application:active{
     opacity:1;
 }
 
-.upper-right{margin-right:18px;}
-.upper-right-2{-right:11px;}
+.upper-right{
+    margin-right:-7px;
+    }
+
 .button-input-place{
-    box-sizing: border-box;
+    position:relative;
+    top:-4px;
+    margin-right:22px;
+    box-sizing:border-box;
     display: inline-block;
     }
 
-.button-input{
-    margin-right: 22px;
-    border-radius: 3px;
-    font-size: 13px;
+.button-input {
+    padding-top:0px;
+    border-radius:3px;
+    font-size:13px;
     height:30px;
     width:65px;
     border:none;
@@ -84,14 +94,14 @@ a:hover{
 
 input[type="search"]{
     border:0.5px;
-    outline: none;
-    box-shadow:0 1px 6px 0 rgba(0,0,0,0.2),0 0 0 0px rgba(0,0,0,0.08);
+    outline:none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.08);
 }
 
 .placeholder input:hover, .placeholder input:focus{
     border:1px;
     box-shadow:0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
-    outline: none;
+    outline:none;
 }
 
 .buttons{
@@ -105,8 +115,8 @@ input[type="submit"] {
     font-size:13px;
     font-weight:bold;
     border-radius:2px;
-    border: 1px solid #f2f2f2;
-    padding: 0 16px;
+    border:1px solid #f2f2f2;
+    padding:0 16px;
 }
 
 .button-design-first{
@@ -143,13 +153,23 @@ input[type="submit"]:focus{
     width:100%;
 }
 
-.lower_left-1{padding-left:29px;margin:0}
-.lower_left-2{padding-left:27px;margin:0}
-.lower_center {padding-left:725px;margin:0}
-.lower_left-3{padding-left:27px;margin:0}
+.lower_left-1{
+    padding-left:29px;
+    margin:0
+}
+
+.lower_left-2{
+    padding-left:27px;
+    margin:0
+}
+
+.lower_center{
+    padding-left:725px;
+    margin:0
+}
 
 .keyboard{
-    position: relative;
+    position:relative;
     top:-107px;
     right:-230px;
     opacity:0.75;
@@ -163,7 +183,7 @@ input[type="submit"]:focus{
 }
 
 .voice{
-    position: relative;
+    position:relative;
     top:-141px;
     left:271px;
     cursor:pointer;

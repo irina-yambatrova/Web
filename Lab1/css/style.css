@@ -1,6 +1,6 @@
 body{
-    font-family: Arial,sans-serif;
-    font-size: 13px;
+    font-family:Arial,sans-serif;
+    font-size:13px;
 }
 
 header{
@@ -30,13 +30,13 @@ a:hover{
     text-decoration:underline;
 }
 
-.application {
+.application{
     margin-top:15px;
     opacity:0.66;
     height:16px;
     display:inline-block;
     box-sizing:border-box;
-    padding-right: 18px;
+    padding-right:18px;
 }
 
 .application:hover, .application:focus, .application:active{
@@ -55,7 +55,7 @@ a:hover{
     display: inline-block;
     }
 
-.button-input {
+.button-input{
     padding-top:0px;
     border-radius:3px;
     font-size:13px;
@@ -64,19 +64,19 @@ a:hover{
     border:none;
     color:#ffffff;
     font-weight:bold;
-    background:-webkit-linear-gradient(#4387f0,#4387f8);
+    background:-webkit-linear-gradient(top,#4387fd,#4683ea);
     outline:none;
 }
 
 .button-input:hover{
-    box-shadow: 0 0.8px 0px 0 rgba(0,0,0,0.16), 0 0 0 0.8px rgba(0,0,0,0.08);
+    box-shadow:0 0.8px 0px 0 rgba(0,0,0,0.16), 0 0 0 0.8px rgba(0,0,0,0.08);
 }
 
 .mainImage{
     margin-top:152px;
     margin-left:536px;
     width:283px;
-    height:94px; 
+    height:94px;
 }
 
 .placeholder{
@@ -109,7 +109,7 @@ input[type="search"]{
     margin-left:544.5px;
 }
 
-input[type="submit"] {
+input[type="submit"]{
     background:-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     color:#757575;
     font-size:13px;
@@ -129,7 +129,7 @@ input[type="submit"] {
     width:118.84px;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover{
     color:#1d1d35;
     border:1px solid #d0d0d0;
     background:-webkit-linear-gradient( #f2f2f2, #f8f8f8);
